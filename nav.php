@@ -19,6 +19,8 @@
         </li>
         <li><a href="index.php" title="Return to Home Page">Home Page</a>
         </li>
+        <li><a href="index.php" title="Return to Home Page">Home Page</a>
+        </li>
       </ul>
 </section>
 </nav>
