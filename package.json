@@ -1,9 +1,9 @@
 {
-  "name": "start-sass",
+  "name": "soccer",
   "version": "0.0.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jgacuca567/start-sass"
+    "url": "https://github.com/jgacuca567/soccer.git"
   },
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
