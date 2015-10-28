@@ -3,6 +3,7 @@
 1. Bower
 	a. jQuery
 	b. Components-Font-Awesome
+	c. Chosen
 2. Grunt
 3. NPM
 4. Node 
