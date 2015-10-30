@@ -6,7 +6,6 @@ module.exports = function(grunt) {
         sass: {
             options: {
                 /** Only use include_paths if extracting elements from Bower */
-                includePaths: ['bower_components/foundation/scss']
             },
             dist: {
                 options: {
