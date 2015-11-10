@@ -13,6 +13,7 @@
             <ul class="right">
                 <li><a href="view-uefaclubs.php">UEFA Stats</a></li>
                 <li><a href="view-club.php">View Clubs</a></li>
+                <li><a href="view-mlsclub.php">View MLS Clubs</a></li>
             </ul>
         </section>
     </nav>
