@@ -1,4 +1,4 @@
-<?php include "admin-nav.php";?>
+<?php include "nav-admin.php";?>
 <h2>These are the list of clubs</h2>
 <?php
 // This script retrieves all the records from the `soccer`.`clubs` table.
