@@ -17,4 +17,3 @@
             </ul>
         </section>
     </nav>
-<?php include 'footer.php';?>
