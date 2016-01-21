@@ -6,7 +6,6 @@ module.exports = function(grunt) {
         sass: {
             options: {
                 /** Only use include_paths if extracting elements from Bower */
-                includePaths: ['bower_components/foundation/scss']
             },
             dist: {
                 options: {
@@ -71,6 +70,7 @@ module.exports = function(grunt) {
     });
 
     grunt.loadNpmTasks('grunt-sass');
+    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-postcss');

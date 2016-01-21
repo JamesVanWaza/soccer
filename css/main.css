@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Molengo://fonts.googleapis.com/css?family=Sorts%20Mill%20Gudy|Molengo");
+/* line 6, ../scss/main.scss */
+body, h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+/* line 10, ../scss/main.scss */
+button, nav, ul, li {
+  font-family: 'Molengo', sans-serif;
+}

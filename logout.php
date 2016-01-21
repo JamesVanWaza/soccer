@@ -5,7 +5,7 @@
 	if (!isset($_SESSION['user_id'])) {
 		header("Location: index.php");
 		exit();
-		//Cancel the session and redirect the user:
+		/** Cancel the session and redirect the user: */
 	}
 	else{
 		$_SESSION = array(); //Destroy the variables
