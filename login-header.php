@@ -1,4 +1,4 @@
-<?php include '../html5req.php';?>
+<?php include 'html5req.php';?>
 <body>
     <header id="header">
     	<h1>This is the Header</h1>
