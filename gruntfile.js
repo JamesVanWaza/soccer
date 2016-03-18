@@ -18,14 +18,6 @@ module.exports = function(grunt) {
             }
         }, // sass
 
-        compass: {
-            dev: {
-                options: {
-                    config: 'config.rb'
-                }
-            } // dev
-        }, //compass
-
         watch: {
             options: {
                 livereload: true,
@@ -44,7 +36,7 @@ module.exports = function(grunt) {
             }, //sass
             css: {
                 files: ['scss/*.scss'],
-                tasks: ['compass']
+                tasks: []
             },
             html: {
                 files: ['*.html']
@@ -54,7 +46,7 @@ module.exports = function(grunt) {
         postcss: {
             options: {
                 processors: [
-                    require('autoprefixer-core')({
+                    require('autoprefixer')({
                         browsers: 'last 2 versions'
                     })
                 ]
@@ -75,7 +67,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-postcss');
     grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-autoupdate');
+    grunt.loadNpmTasks('grunt-openport');
 
-    grunt.registerTask('build', ['sass']);
-    grunt.registerTask('default', ['build', 'watch', 'compass', 'jshint']);
+    grunt.registerTask('default', ['openport:watch.options.livereload:35729', 'watch', 'jshint', 'autoupdate']);
 }
