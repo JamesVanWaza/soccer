@@ -28,3 +28,8 @@ body {
 nav {
   font-family: 'Sorts Mill Goudy', serif;
 }
+
+footer {
+  background-color: #468966;
+  color: #FFF0A5;
+}
