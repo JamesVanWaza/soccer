@@ -4,9 +4,6 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         sass: {
-            options: {
-                /** Only use include_paths if extracting elements from Bower */
-            },
             dist: {
                 options: {
                     outputStyle: 'expanded',
@@ -27,7 +24,7 @@ module.exports = function(grunt) {
                     } //date format function
             }, //options
             scripts: {
-                files: ['*.js']
+                files: ['*.js', 'js/*.js']
             }, // scripts
             //Live Reload of SASS
             sass: {
@@ -40,7 +37,11 @@ module.exports = function(grunt) {
             },
             html: {
                 files: ['*.html']
-            }
+            }, //html
+            all: {
+                files: '{,**/}*.js',
+                tasks: ['jshint']
+            } //all
         }, //watch
 
         postcss: {
@@ -57,18 +58,18 @@ module.exports = function(grunt) {
             options: {
                 reporter: require('jshint-stylish')
             },
-            target: ['*.js', 'js/*.js']
+            target: ['*.js', 'js/*.js'],
+            all: ['*.js', 'js/*.js']
         } //jshint
     });
 
     grunt.loadNpmTasks('grunt-sass');
-    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-postcss');
     grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-autoupdate');
+    grunt.loadNpmTasks('grunt-force-task');
     grunt.loadNpmTasks('grunt-openport');
+    grunt.loadNpmTasks('grunt-autoupdate');
 
-    grunt.registerTask('default', ['openport:watch.options.livereload:35729', 'watch', 'jshint', 'autoupdate']);
-}
+    grunt.registerTask('default', ['sass', 'openport:watch.options.livereload:35729', 'watch', 'force:jshint', 'autoupdate']);
+};
