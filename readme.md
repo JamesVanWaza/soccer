@@ -17,9 +17,10 @@
 3. <del>Google Fonts SASS</del>
 	a. <del>Sans-Serif - Molengo</del>
 	b. <del>Serif - Sorts Mill Goudy</del>
-4. Color Scheme - See Adobe Photoshop - Soccer
+4. <del>Color Scheme - See Adobe Photoshop - Soccer</del>
 5. Navigation - Flexnav
 	a. Import Flexnav.scss 
 	b. Select Colors for Naviation, Font Family as Well
 	c. Once It is done, find out how to use + and - when the user hovers on a dropdown
-
+6. Add Mixin for Align Classes
+	a. http://www.sitepoint.com/centering-with-sass/
