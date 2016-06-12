@@ -24,3 +24,4 @@
 	c. Once It is done, find out how to use + and - when the user hovers on a dropdown
 6. Add Mixin for Align Classes
 	a. http://www.sitepoint.com/centering-with-sass/
+7. Reread Practical PHP and MySQL Book
