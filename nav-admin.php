@@ -15,3 +15,10 @@
         </ul>
     </section>
 </nav>
+<nav>
+    <ul class="flexnav" data-breakpoint="800">
+        <li><a href="create-club.php">Create Clubs</a></li>
+        <li><a href="view-club.php">View Clubs</a></li>
+        <li><a href="#">Logout</a></li>
+    </ul>
+</nav>
