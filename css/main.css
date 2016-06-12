@@ -43,3 +43,26 @@ footer {
   width: 100%;
   max-height: 0;
 }
+
+.flexnav.opacity {
+  opacity: 0;
+}
+
+.flexnav.flexnav-show {
+  max-height: 2000px;
+  opacity: 1;
+  transition: all .5s ease-in-out;
+}
+
+.flexnav.one-page {
+  position: fixed;
+  top: 50px;
+  right: 5%;
+  max-width: 200px;
+}
+
+.flexnav li {
+  font-size: 100%;
+  position: relative;
+  overflow: hidden;
+}
