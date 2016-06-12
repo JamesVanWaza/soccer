@@ -1,5 +1,5 @@
 <?php
-include_once 'nav.php';
+include_once 'nav-admin.php';
 require 'mysqli-connect.php';
 /** This script performs an INSERT query that adds a record to the users table */
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -109,6 +109,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 ?>">Bundesliga (Div 1)</option>
                     <option value="<?php if (isset($_POST['league'])) {echo $_POST['league'];}
 ?>">Gibraltar (Div 1)</option>
+<option value="<?php if (isset($_POST['league'])) {echo $_POST['league'];}
+?>">La Liga (Div 1)</option>
                 </select>
 				</label>
 			</div><!--End of First Row-->
@@ -161,10 +163,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			</div>
 		</div><!--End of Third Row-->
 	</form>
-<script src="js/vendor/modernizr.js"></script>
-<script src="js/vendor/jquery.js"></script>
-<script src="js/foundation.min.js"></script>
-
-<script>
-    $(document).foundation();
-</script>
+<?php include 'footer.php';?>
