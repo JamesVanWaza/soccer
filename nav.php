@@ -17,3 +17,10 @@
             </ul>
         </section>
     </nav>
+<nav>
+    <ul class="flexnav" data-breakpoint="800">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#">Logout</a></li>
+    </ul>
+</nav>
