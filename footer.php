@@ -1,7 +1,13 @@
-	<footer>
-		<i class="fa fa-copyright"></i> JAMESVANWAZA 2012-<?php echo date('Y'); ?>
+	<footer id="footer">
+		<i class="fa fa-copyright"></i>
+		<?php
+$fromYear = 2012;
+$thisYear = (int) date('Y');
+echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');
+?> , James Van Waza
 	</footer>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="js/flexnav.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
