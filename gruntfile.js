@@ -69,5 +69,5 @@ module.exports = function(grunt) {
 
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('default', ['sass', 'openport:watch.options.livereload:35729', 'watch', 'force:jshint', 'autoupdate', 'php']);
+    grunt.registerTask('default', ['autoupdate', 'sass', 'openport:watch.options.livereload:35729', 'watch', 'force:jshint', 'php']);
 };
