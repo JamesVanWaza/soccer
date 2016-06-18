@@ -4,3 +4,4 @@
 /scss/
 *.codekit
 *.log
+*.pkg
