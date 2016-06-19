@@ -66,3 +66,41 @@ footer {
   position: relative;
   overflow: hidden;
 }
+
+.flexnav li a {
+  position: relative;
+  display: block;
+  padding: .96em;
+  z-index: 2;
+  overflow: hidden;
+  color: #468966;
+  background: #FFF0A5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.flexnav li ul {
+  width: 100%;
+}
+
+.flexnav li ul li {
+  font-size: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.flexnav li ul.flexnav-show li {
+  overflow: visible;
+}
+
+.flexnav li ul li a {
+  display: block;
+  background: #FFB03B;
+}
+
+.flexnav ul li ul li a {
+  background: #B64926;
+}
+
+.flexnav ul li ul li ul li a {
+  background: #8E2800;
+}
