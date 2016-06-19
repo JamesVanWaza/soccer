@@ -1,4 +1,5 @@
 <?php include_once 'html5req.php';?>
+<div class="menu-button">Menu</div>
 <nav>
     <ul class="flexnav" data-breakpoint="800">
         <li><a href="about.php" title="About Us">About Us</a></li>
