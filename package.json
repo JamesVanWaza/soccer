@@ -20,5 +20,10 @@
     "grunt-sass": "^1.1.0",
     "jshint-stylish": "^2.0.1",
     "node-sass": "^3.4.2"
+  },
+  "dependencies": {
+    "components-font-awesome": "^4.6.1",
+    "jquery": "^3.0.0",
+    "momentjs": "^1.1.7"
   }
 }
