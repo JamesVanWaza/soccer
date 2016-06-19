@@ -73,9 +73,16 @@ footer {
   padding: .96em;
   z-index: 2;
   overflow: hidden;
-  color: #468966;
-  background: #FFF0A5;
+  color: #FFF0A5;
+  background: #468966;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.flexnav li a:hover {
+  color: orange;
+  border-bottom: 2px solid #FFF0A5;
 }
 
 .flexnav li ul {
