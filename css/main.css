@@ -109,5 +109,86 @@ footer {
 }
 
 .flexnav ul li ul li ul li a {
-  background: #8E2800;
+  background: #468966;
+}
+
+.flexnav .touch-button {
+  background: transparent;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
+.flexnav .touch-button .navicon {
+  font-size: 16px;
+  position: relative;
+  top: 1em;
+  color: #FFB03B;
+}
+
+@media all and (min-width: 800px) {
+  body.one-page {
+    padding-top: 70px;
+  }
+  .flexnav {
+    overflow: visible;
+  }
+  .flexnav.opacity {
+    opacity: 1;
+  }
+  .flexnav.one-page {
+    top: 0;
+    right: auto;
+    max-width: 1080px;
+  }
+  .flexnav li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    background-color: #468966;
+    overflow: visible;
+    width: 20%;
+  }
+  .flexnav li a {
+    border-left: 2px solid #FFF0A5;
+    border-bottom: none;
+  }
+  .flexnav li > ul {
+    position: absolute;
+    top: auto;
+    left: 0;
+  }
+  .flexnav li > ul li {
+    width: 100%;
+  }
+  .flexnav li ul li > ul {
+    margin-left: 100%;
+    top: 0;
+  }
+  .flexnav li ul li a {
+    border-bottom: none;
+  }
+  .flexnav li ul.open {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+  }
+  .flexnav li ul.open li {
+    overflow: visible;
+    max-height: 100px;
+  }
+  .flexnav li ul.open ul.open {
+    margin-left: 100%;
+    top: 0;
+  }
+  .menu-button {
+    display: none;
+  }
 }
