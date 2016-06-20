@@ -26,3 +26,5 @@
 7. Reread Practical PHP and MySQL Book
 8. Add Datatables CSS, JS and Initialize in the document.
 9. Redo Navigation to make it look much better. 
+10. Upload soccer to google cloud
+11. Setup Google Sign On using Google and Github
