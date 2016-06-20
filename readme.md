@@ -1,13 +1,12 @@
 # Requirements
 
-1. Bower
-	a. jQuery
-	b. Components-Font-Awesome
-	c. Chosen
-2. Grunt
-3. NPM
+1. Grunt
+2. NPM
 	a. Update DevDependencies
-4. Node 
+	b. jQuery
+	c. Font Awesome
+	d. Chosen JS
+3. Node 
 	a. Update Node.JS
 
 
@@ -25,3 +24,5 @@
 6. Add Mixin for Align Classes
 	a. http://www.sitepoint.com/centering-with-sass/
 7. Reread Practical PHP and MySQL Book
+8. Add Datatables CSS, JS and Initialize in the document.
+9. Redo Navigation to make it look much better. 
