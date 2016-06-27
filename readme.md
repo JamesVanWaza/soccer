@@ -28,3 +28,4 @@
 9. Redo Navigation to make it look much better. 
 10. Upload soccer to google cloud
 11. Setup Google Sign On using Google and Github
+12. Add stickyfooter JS
