@@ -24,7 +24,7 @@
 6. Add Mixin for Align Classes
 	a. http://www.sitepoint.com/centering-with-sass/
 7. Reread Practical PHP and MySQL Book
-8. Add Datatables CSS, JS and Initialize in the document.
+8. <del>Add Datatables CSS, JS and Initialize in the document.</del>
 9. Redo Navigation to make it look much better. 
 10. Upload soccer to google cloud
 11. Setup Google Sign On using Google and Github
