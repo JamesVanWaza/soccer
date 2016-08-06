@@ -10,7 +10,7 @@ $result = @mysqli_query($dbcon, $q); // Run the query.
 if ($result) {
     // If it ran OK, display the records.
     // Table header.
-    echo '<table>
+    echo '<table id="myTable">
 			<tr>
 				<td><b>Club No</b></td>
 				<td><b>Name of club</b></td>
