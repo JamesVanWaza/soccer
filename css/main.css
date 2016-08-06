@@ -1,3 +1,50 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("//fonts.googleapis.com/css?family=Roboto%20Slab");
+@import url("//fonts.googleapis.com/css?family=Sorts%20Mill%20Goudy");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait and Landscape */
 /* ----------- iPhone 5 and 5S ----------- */
@@ -19,23 +66,6 @@
 /* Landscape */
 /* ----------- Non-Retina Screens ----------- */
 /* ----------- Retina Screens ----------- */
-@import url("//fonts.googleapis.com/css?family=Molengo");
-@import url("//fonts.googleapis.com/css?family=Sorts%20Mill%20Goudy");
-body {
-  font-family: 'Molengo', sans-serif;
-}
-
-nav {
-  font-family: 'Sorts Mill Goudy', serif;
-}
-
-footer {
-  background-color: #468966;
-  color: #FFF0A5;
-}
-
-/** Flex Navigation */
-/* Flexnav Base Styles */
 .flexnav {
   transition: none;
   -webkit-transform-style: preserve-3d;
@@ -75,10 +105,10 @@ footer {
   z-index: 2;
   overflow: hidden;
   color: #468966;
-  background: #FFF0A5;
+  background: #a6a6a2;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .flexnav li a:hover {
@@ -101,15 +131,15 @@ footer {
 
 .flexnav li ul li a {
   display: block;
-  background: #468966;
-}
-
-.flexnav ul li ul li a {
   background: #FFF0A5;
 }
 
+.flexnav ul li ul li a {
+  background: #FFB03B;
+}
+
 .flexnav ul li ul li ul li a {
-  background: #468966;
+  background: #FFB03B;
 }
 
 .flexnav .touch-button {
@@ -133,7 +163,7 @@ footer {
   position: relative;
   top: 1.4em;
   font-size: 12px;
-  color: #FFF0A5;
+  color: #666;
 }
 
 .menu-button {
@@ -169,7 +199,7 @@ footer {
   font-size: 16px;
   position: relative;
   top: 1em;
-  color: #FFF0A5;
+  color: #666;
 }
 
 @media all and (min-width: 800px) {
@@ -234,93 +264,15 @@ footer {
   }
 }
 
-.oldie body.one-page {
-  padding-top: 70px;
+body {
+  font-family: 'Roboto Slab', sans-serif;
 }
 
-.oldie .flexnav {
-  overflow: visible;
+nav {
+  font-family: 'Sorts Mill Goudy', serif;
 }
 
-.oldie .flexnav.one-page {
-  top: 0;
-  right: auto;
-  max-width: 1080px;
-}
-
-.oldie .flexnav li {
-  position: relative;
-  list-style: none;
-  float: left;
-  display: block;
-  background-color: #a6a6a2;
-  width: 20%;
-  min-height: 50px;
-  overflow: visible;
-}
-
-.oldie .flexnav li:hover > ul {
-  display: block;
-  width: 100%;
-  overflow: visible;
-}
-
-.oldie .flexnav li:hover > ul li {
-  width: 100%;
-  float: none;
-}
-
-.oldie .flexnav li a {
-  border-left: 1px solid #acaca1;
-  border-bottom: none;
-  overflow: visible;
-}
-
-.oldie .flexnav li > ul {
-  background: #acaca1;
-  position: absolute;
-  top: auto;
-  left: 0;
-  display: none;
-  z-index: 1;
-  overflow: visible;
-}
-
-.oldie .flexnav li ul li ul {
-  top: 0;
-}
-
-.oldie .flexnav li ul li a {
-  border-bottom: none;
-}
-
-.oldie .flexnav li ul.open {
-  display: block;
-  width: 100%;
-  overflow: visible;
-}
-
-.oldie .flexnav li ul.open li {
-  width: 100%;
-}
-
-.oldie .flexnav li ul.open ul.open {
-  margin-left: 100%;
-  top: 0;
-  display: block;
-  width: 100%;
-  overflow: visible;
-}
-
-.oldie .flexnav ul li:hover ul {
-  margin-left: 100%;
-  top: 0;
-}
-
-.oldie .menu-button {
-  display: none;
-}
-
-.oldie.ie7 .flexnav li {
-  width: 19.9%;
+footer {
+  background-color: #468966;
+  color: #FFF0A5;
 }
