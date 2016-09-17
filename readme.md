@@ -29,3 +29,5 @@
 10. Upload soccer to google cloud
 11. Setup Google Sign On using Google and Github
 12. Add stickyfooter JS
+13. Add app.yaml page 
+14. Domain will be https://soccer.dosbranding.com
