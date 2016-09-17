@@ -3,10 +3,6 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
-        php: {
-            watch: {}
-        }, //php
-
         sass: {
             dist: {
                 options: {
@@ -69,5 +65,5 @@ module.exports = function(grunt) {
 
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('default', ['autoupdate', 'sass', 'openport:watch.options.livereload:35729', 'watch', 'force:jshint', 'php']);
+    grunt.registerTask('default', ['autoupdate', 'sass', 'openport:watch.options.livereload:35729', 'watch', 'force:jshint']);
 };
