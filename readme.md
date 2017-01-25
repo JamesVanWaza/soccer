@@ -28,6 +28,7 @@
 9. Redo Navigation to make it look much better. 
 10. Upload soccer to google cloud
 11. Setup Google Sign On using Google and Github
-12. Add stickyfooter JS
+12. Add stickyfooter (Use solved by Flexbox Example) -  Do some front end work
 13. Add app.yaml page 
 14. Domain will be https://soccer.dosbranding.com
+15. Setup SidebarTransition use the Scale and Rotate Pusher Effect
