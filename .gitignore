@@ -5,3 +5,4 @@
 *.codekit
 *.log
 *.pkg
+.DS_Store
