@@ -1,8 +1,8 @@
 /.sass-cache/
 /node_modules/
-/bower_components/
 /scss/
 *.codekit
 *.log
 *.pkg
 .DS_Store
+package-lock.json
