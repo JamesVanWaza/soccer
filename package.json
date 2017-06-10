@@ -1,12 +1,12 @@
 {
   "name": "soccer",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jgacuca567/soccer.git"
+    "url": "git+https://github.com/jgacuca567/soccer.git"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.3",
+    "autoprefixer": "^7.1.1",
     "font-awesome": "^4.7.0",
     "grunt": "~0.4.5",
     "grunt-autoupdate": "0.0.1",
@@ -20,10 +20,25 @@
     "grunt-postcss": "^0.5.5",
     "grunt-sass": "^1.2.1",
     "jshint-stylish": "^2.0.1",
+    "moment": "^2.18.1",
     "node-sass": "^3.13.1"
   },
   "dependencies": {
-    "jquery": "^3.2.1",
-    "momentjs": "^1.1.17"
-  }
+    "jquery": "^3.2.1"
+  },
+  "description": "1. Grunt 2. NPM \ta. Update DevDependencies \tb. jQuery \tc. Font Awesome \td. Chosen JS 3. Node  \ta. Update Node.JS",
+  "bugs": {
+    "url": "https://github.com/jgacuca567/soccer/issues"
+  },
+  "homepage": "https://github.com/jgacuca567/soccer#readme",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Soccer",
+    "Website"
+  ],
+  "author": "JamesVanWaza <info@dosbranding.com>",
+  "license": "MIT"
 }
