@@ -1,6 +1,6 @@
 {
   "name": "soccer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jgacuca567/soccer.git"
@@ -26,7 +26,7 @@
   "dependencies": {
     "jquery": "^3.2.1"
   },
-  "description": "1. Grunt 2. NPM \ta. Update DevDependencies \tb. jQuery \tc. Font Awesome \td. Chosen JS 3. Node  \ta. Update Node.JS",
+  "description": "Soccer Website",
   "bugs": {
     "url": "https://github.com/jgacuca567/soccer/issues"
   },
@@ -36,8 +36,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Soccer",
-    "Website"
+    "Soccer website",
   ],
   "author": "JamesVanWaza <info@dosbranding.com>",
   "license": "MIT"
