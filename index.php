@@ -1,4 +1,10 @@
-<?php include_once 'nav.php';?>
+<?php include 'html5req.php';?>
+  <body>
+    <h1>Hello, world!</h1>
 
-<?php include 'footer.php';?>
-
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/what-input/dist/what-input.js"></script>
+    <script src="node_modules/foundation-sites/dist/js/foundation.min.js"></script>
+	<script src="js/main.js"></script>
+  </body>
+</html>
