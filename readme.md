@@ -18,17 +18,19 @@
 	b. <del>Serif - Sorts Mill Goudy</del>
 4. <del>Color Scheme - See Adobe Photoshop - Soccer</del>
 5. Navigation - Flexnav
-	a. Import Flexnav.scss 
+
+	a. Import Flexnav.scss
+	
 	b. Select Colors for Naviation, Font Family as Well
+	
 	c. Once It is done, find out how to use + and - when the user hovers on a dropdown
-6. Add Mixin for Align Classes
-	a. http://www.sitepoint.com/centering-with-sass/
-7. Reread Practical PHP and MySQL Book
-8. <del>Add Datatables CSS, JS and Initialize in the document.</del>
-9. Redo Navigation to make it look much better. 
-10. Upload soccer to google cloud
-11. Setup Google Sign On using Google and Github
-12. Add stickyfooter (Use solved by Flexbox Example) -  Do some front end work
-13. Add app.yaml page 
-14. Domain will be https://soccer.dosbranding.com
-15. Setup SidebarTransition use the Scale and Rotate Pusher Effect
+6. Reread Practical PHP and MySQL Book
+7. <del>Add Datatables CSS, JS and Initialize in the document.</del>
+8. Redo Navigation to make it look much better. 
+9. Upload soccer to google cloud
+10. Setup Google Sign On using Google and Github
+11. Add stickyfooter (Use solved by Flexbox Example) -  Do some front end work
+12. <del>Add app.yaml page</del> 
+13. Domain will be https://soccer.dosbranding.com
+14. Setup SidebarTransition use the Scale and Rotate Pusher Effect
+15. Add [Chosen JS](https://harvesthq.github.io/chosen/)
