@@ -7,7 +7,8 @@ module.exports = function(grunt) {
             dist: {
                 options: {
                     outputStyle: 'expanded',
-                    sourceMap: false
+                    sourceMap: false,
+                    includePaths: ['node_modules/foundation-sites/scss'],
                 },
                 files: {
                     'css/style.css': 'scss/style.scss'
