@@ -6,6 +6,8 @@
         <li><a href="about.php" title="About Us">About Us</a></li>
         <li><a href="faqs.php" title="Frequently Asked Questions">FAQs</a></li>
         <li><a href="contact.php" title="Contact us">Contact Us</a></li>
+        <li><a href="view-mlsclubs.php" title="MLS Clubs">MLS Clubs</a></li>
+        <li><a href="view-uefaclubs.php" title="UEFA Clubs">UEFA Clubs</a></li>
         <li>
         	<a href="">Genres</a>
         	<ul>
