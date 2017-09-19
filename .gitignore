@@ -6,3 +6,4 @@
 *.pkg
 .DS_Store
 package-lock.json
+images/
