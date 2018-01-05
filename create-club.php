@@ -106,12 +106,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			<div class="large-6 medium-6 small-12 columns">
 				<label>League
                 <select name="league" id="league">
-                	<option value="<?php if (isset($_POST['league'])) {echo $_POST['league'];}
-?>">Bundesliga (Div 1)</option>
-                    <option value="<?php if (isset($_POST['league'])) {echo $_POST['league'];}
-?>">Gibraltar (Div 1)</option>
-<option value="<?php if (isset($_POST['league'])) {echo $_POST['league'];}
-?>">La Liga (Div 1)</option>
+                	<option value="<?php if (isset($_POST['league'])) {echo $_POST['league'];}?>">Bundesliga (Div 1)</option>
+                    <option value="<?php if (isset($_POST['league'])) {echo $_POST['league'];}?>">EFL (Div 2)</option>
+					<option value="<?php if (isset($_POST['league'])) {echo $_POST['league'];}?>">Gibraltar (Div 1)</option>
+					<option value="<?php if (isset($_POST['league'])) {echo $_POST['league'];}?>">La Liga (Div 1)</option>
                 </select>
 				</label>
 			</div><!--End of First Row-->
@@ -122,15 +120,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			<div class="large-6 medium-6 small-12 columns">
 				<label>Country
                 	<select name="country" id="country">
-                    	<option value="<?php if (isset($_POST['country'])) {
-	echo $_POST['country'];}
-?>">Gibraltar</option>
-                		<option value="<?php if (isset($_POST['country'])) {
-	echo $_POST['country'];}
-?>">Spain</option>
-                		<option value="<?php if (isset($_POST['country'])) {
-	echo $_POST['country'];}
-?>">USA</option>
+                    	<option value="<?php if (isset($_POST['country'])) {echo $_POST['country'];}?>">England</option>
+                		<option value="<?php if (isset($_POST['country'])) {echo $_POST['country'];}?>">France</option>
+                		<option value="<?php if (isset($_POST['country'])) {echo $_POST['country'];}?>">Germany</option>
+                		<option value="<?php if (isset($_POST['country'])) {echo $_POST['country'];}?>">Gibraltar</option>
+                		<option value="<?php if (isset($_POST['country'])) {echo $_POST['country'];}?>">Italy</option>
+                		<option value="<?php if (isset($_POST['country'])) {echo $_POST['country'];}?>">Kenya</option>
+                		<option value="<?php if (isset($_POST['country'])) {echo $_POST['country'];}?>">Spain</option>
+						<option value="<?php if (isset($_POST['country'])) {echo $_POST['country'];}?>">USA</option>
                 	</select>
 				</label>
 			</div>
