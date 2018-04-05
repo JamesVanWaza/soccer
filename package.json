@@ -1,11 +1,11 @@
 {
   "name": "soccer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Soccer Website built with Foundation 6",
   "main": "index.php, login.php",
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.4",
-    "autoprefixer": "^8.1.0",
+    "@fortawesome/fontawesome": "^1.1.5",
+    "autoprefixer": "^8.2.0",
     "font-awesome": "^4.7.0",
     "foundation-sites": "^6.4.3",
     "grunt": "^1.0.2",
@@ -13,8 +13,8 @@
     "grunt-openport": "^1.0.0",
     "grunt-sass": "^2.1.0",
     "jquery": "^3.3.1",
-    "moment": "^2.21.0",
-    "node-sass": "^4.7.2"
+    "moment": "^2.22.0",
+    "node-sass": "^4.8.3"
   },
   "devDependencies": {
     "chosen-js": "^1.8.3",
