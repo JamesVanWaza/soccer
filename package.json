@@ -1,6 +1,6 @@
 {
   "name": "soccer",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Soccer Website built with Foundation 6",
   "main": "index.php, login.php",
   "dependencies": {
@@ -25,17 +25,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jgacuca567/soccer.git"
-  },
+  "repository": "git+https://github.com/jamesvanwaza/soccer.git",
   "keywords": [
     "Foundation6"
   ],
   "author": "JamesVanWaza <info@dosbranding.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jgacuca567/soccer/issues"
+    "url": "https://github.com/jamesvanwaza/soccer/issues"
   },
-  "homepage": "https://github.com/jgacuca567/soccer#readme"
+  "homepage": "https://github.com/jamesvanwaza/soccer#readme"
 }
