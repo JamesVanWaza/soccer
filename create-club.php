@@ -85,7 +85,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 }/** End of the main submit */
 ?>
-<h2 class="text-center">Register</h2>
+<div class="container-fluid">
+	<h2 class="text-center">Register</h2>
 
 	<!--display the form on the screen-->
 	<form action="create-club.php" method="post">
@@ -161,4 +162,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			</div>
 		</div><!--End of Third Row-->
 	</form>
+</div>
+
 <?php include 'footer.php';?>
