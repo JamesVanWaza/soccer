@@ -5,7 +5,6 @@
   "main": "index.php, login.php",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",
-    "font-awesome": "^4.7.0",
     "foundation-sites": "^6.5.0-rc.3",
     "grunt": "^1.0.3",
     "grunt-force-task": "^2.0.0",
