@@ -1,7 +1,8 @@
-application: soccer-140819
-version: alpha-001
-runtime: php55
-api_version: 1
+runtime: php
+env: flex
+
+runtime_config: 
+  document_root: .
 
 handlers: 
 - url: /
