@@ -31,6 +31,5 @@
 10. Setup Google Sign On using Google and Github
 11. Add stickyfooter (Use solved by Flexbox Example) -  Do some front end work
 12. <del>Add app.yaml page</del> 
-13. Domain will be https://soccer.dosbranding.com
-14. Setup SidebarTransition use the Scale and Rotate Pusher Effect
-15. Add [Chosen JS](https://harvesthq.github.io/chosen/)
+13. Setup SidebarTransition use the Scale and Rotate Pusher Effect
+14. Add [Chosen JS](https://harvesthq.github.io/chosen/)
