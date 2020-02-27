@@ -8,12 +8,12 @@
 package-lock.json
 images/
 yarn.lock
-storage.rules
-functions/.eslintrc.json
-database.rules.json
-firebase.json
-firestore.indexes.json
-.firebaserc
-firestore.rules
-functions/index.js
-functions/package.json
+# storage.rules
+# functions/.eslintrc.json
+# database.rules.json
+# firebase.json
+# firestore.indexes.json
+# .firebaserc
+# firestore.rules
+# functions/index.js
+# functions/package.json
