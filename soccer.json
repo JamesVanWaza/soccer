@@ -1,18 +1,22 @@
-[
-  {
-      "Arsenal",
-      "Barcelona",
-      "Bayern Munich",
-      "Borrusia Dortmund",
-      "Chelsea",
-      "Liverpool",
-      "Levante UD",
-      "Manchester United",
-      "PSG",
-      "PSV Eindhoven",
-      "Real Madrid",
-      "Tottenham FC",
-      "Unionistas",
-      "Watford FC"
-  }
-]
+{
+	[
+		"id": 001,
+		"clubname": "Arsenal",
+		"league": "English Premier League",
+		"country": "England"
+	]
+}
+
+//"Barcelona",
+//"Bayern Munich",
+//"Borrusia Dortmund",
+//"Chelsea",
+//"Liverpool",
+//"Levante UD",
+//"Manchester United",
+//"PSG",
+//"PSV Eindhoven",
+//"Real Madrid",
+//"Tottenham FC",  
+//"Unionistas",
+//"Watford FC"
