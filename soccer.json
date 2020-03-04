@@ -1,11 +1,11 @@
-{
-	[
+[
+	{
 		"id": 001,
 		"clubname": "Arsenal",
 		"league": "English Premier League",
 		"country": "England"
-	]
-}
+	}
+]
 
 //"Barcelona",
 //"Bayern Munich",
