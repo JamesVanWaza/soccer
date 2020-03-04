@@ -1,6 +1,5 @@
-{
-  "soccer-clubs": {
-    "club-name": [
+[
+  {
       "Arsenal",
       "Barcelona",
       "Bayern Munich",
@@ -15,5 +14,5 @@
       "Tottenham FC",
       "Unionistas",
       "Watford FC"
-    ]
   }
+]
