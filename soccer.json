@@ -4,11 +4,21 @@
 		"clubname": "Arsenal",
 		"league": "English Premier League",
 		"country": "England"
+	}, 
+	{
+		"id" : 002,
+		"clubname": "Barcelona",
+		"league": "La Liga", 
+		"country": "Spain"
+	}, 
+	{
+		"id": 003, 
+		"clubname": "Bayern Munich",
+		"league": "Bundesliga",
+		"country": "Germany"
 	}
 ]
 
-//"Barcelona",
-//"Bayern Munich",
 //"Borrusia Dortmund",
 //"Chelsea",
 //"Liverpool",
