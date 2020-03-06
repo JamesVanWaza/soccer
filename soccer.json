@@ -16,17 +16,77 @@
 		"clubname": "Bayern Munich",
 		"league": "Bundesliga",
 		"country": "Germany"
-	}
+	},
+  {
+    "id": 004, 
+    "clubname": "Borrusia Dortmund",
+    "league": "Bundesliga",
+    "country": "Germany"
+  },
+  {
+    "id": 005,
+    "clubname": "Chelsea",
+    "league": "English Premier League",
+    "country": "England"
+  },
+  {
+    "id": 006,
+    "clubname": "Liverpool",
+    "league": "English Premier League",
+    "country": "England"
+  },
+  {
+    "id": 007, 
+    "clubname": "Levante UD", 
+    "league": "La Liga",
+    "country": "Spain"
+  },
+  {
+    "id": 008, 
+    "clubname": "Manchester United",
+    "league": "English Premier League",
+    "country": "England"
+  }, 
+  {
+    "id": 009,
+    "clubname": "Paris Saint German (PSG)",
+    "league": "French League", 
+    "country": "France"
+  }, 
+  {
+    "id": 010, 
+    "clubname": "PSV Eindhoven",
+    "league": "Eredivisie (Dutch)",
+    "country": "Netherlands"
+  },
+  {
+    "id": 011,
+    "clubname": "Real Madrid", 
+    "league": "La Liga",
+    "country": "Spain"
+  },
+  {
+    "id": 012,
+    "clubname": "Tottenham FC",
+    "league": "English Premier League",
+    "country": "England"
+  },
+  {
+    "id": 013,
+    "clubname": "Unionistas", 
+    "league": "Segunda Division B", 
+    "country": "Spain"
+  }, 
+  {
+    "id": 014, 
+    "clubname": "Watford FC", 
+    "league": "English Premier League", 
+    "country": "England"
+  }, 
+  {
+    "id": 015, 
+    "clubname": "Derby County",
+    "league": "Championship", 
+    "country": "England"
+  }
 ]
-
-//"Borrusia Dortmund",
-//"Chelsea",
-//"Liverpool",
-//"Levante UD",
-//"Manchester United",
-//"PSG",
-//"PSV Eindhoven",
-//"Real Madrid",
-//"Tottenham FC",  
-//"Unionistas",
-//"Watford FC"
